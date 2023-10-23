@@ -14,8 +14,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include(FetchContent)
 
 # Fetch and make libuvc available
-FetchContent_Declare(
-  libuvc
+FetchContent_Declare(libuvc
   GIT_REPOSITORY https://github.com/libuvc/libuvc.git
   GIT_TAG        origin/master
 )
