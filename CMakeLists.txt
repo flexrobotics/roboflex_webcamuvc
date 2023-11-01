@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.24)
 
-project(roboflex_webcam_uvc VERSION 0.1.3 DESCRIPTION "roboflex webcamuvc")
+project(roboflex_webcam_uvc VERSION 0.1.4 DESCRIPTION "roboflex webcamuvc")
 
 # specify the C++ standard
 set(CMAKE_CXX_STANDARD 20)

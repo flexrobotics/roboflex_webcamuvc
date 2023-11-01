@@ -50,7 +50,7 @@ long_description = (Path(__file__).parent / "README.md").read_text()
 
 setup(
     name='roboflex.webcam_uvc',
-    version='0.1.3',
+    version='0.1.4',
     description='Roboflex Library that supports UVC-Compatible Webcams',
     author='Colin Prepscius',
     author_email='colinprepscius@gmail.com',
