@@ -7,13 +7,16 @@ Support for web cameras on linux - actually just a thin wrapper around libuvc, s
     apt-get install libusb-1.0-0-dev
     apt-get install libjpeg-dev
 
+    # ...or, on mac:
+
+    brew install libusb
+
 ## pip install
 
     pip install roboflex.webcam_uvc
 
 ## Import
 
-    import numpy
     import roboflex.webcam_uvc as rcw
 
 ## Nodes
