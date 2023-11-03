@@ -1,7 +1,7 @@
 # python/CMakeLists.txt
 cmake_minimum_required(VERSION 3.18)
 
-project(roboflex_webcam_uvc_ext VERSION 0.1.5 DESCRIPTION "roboflex webcam uvc python wrapping")
+project(roboflex_webcam_uvc_ext)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
