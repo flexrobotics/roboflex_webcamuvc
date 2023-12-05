@@ -47,22 +47,12 @@ set_property(TARGET roboflex_webcam_uvc PROPERTY
 target_include_directories(roboflex_webcam_uvc PUBLIC 
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include> 
     $<INSTALL_INTERFACE:include>
-    #${xtensor_INCLUDE_DIRS}
 )
 
 # Link against the necessary libraries
 target_link_libraries(roboflex_webcam_uvc PUBLIC 
     roboflex_core 
     uvc
-
-    # Unfortunately, we need to link against all these libraries
-    # because they are used by roboflex_core, and cmake doesn't
-    # seem to be transitivily doing it's thing. Urgh, someone help.
-    flatbuffers_util 
-    xtensor 
-    xsimd 
-    xtl
-    Eigen3::Eigen
 )
 
 
