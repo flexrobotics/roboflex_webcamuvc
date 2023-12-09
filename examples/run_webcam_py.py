@@ -1,5 +1,5 @@
 import time
-import roboflex.core as rcc
+import roboflex as rcc
 import roboflex.webcam_uvc as rcw
 
 print('DEVICES:', rcw.get_device_list())
